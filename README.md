@@ -12,8 +12,7 @@ A complete, modern rebuild of the classic **Chain Reaction** strategy game. Writ
 
 Get the latest optimized game build directly on your Android device:
 
-> ⚡ **[📥 Download the Release App (app-release.apk) 📥](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/releases/download/v1.0.0/app-release.apk)**  
-> *(Note: Replace this link with your published release link after uploading to GitHub)*
+> ⚡ **[📥 Download the Release App (app-release.apk) 📥](https://github.com/SudipSaha00002/Chain-Reaction-Game/releases/download/v1.0.0/app-release.apk)**  
 
 ### Simple Installation Steps:
 1. Tap the download link on your phone.
