@@ -1,11 +1,10 @@
-# 🧬 Chain Reaction: Cyber Search Edition
+# 🧬 Chain Reaction Game
 
 [![Flutter](https://img.shields.io/badge/Flutter-%E2%89%A53.22-02569B?logo=flutter&style=for-the-badge)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-%E2%89%A53.0-0175C2?logo=dart&style=for-the-badge)](https://dart.dev)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-A complete, modern rebuild of the classic **Chain Reaction** strategy game. Written from scratch using **Flutter & Dart**, this edition focuses on a premium cyberpunk dark theme, smooth physics-like animations, and a highly competitive AI engine that runs completely on background threads.
-
+A complete, modern rebuild of the classic **Chain Reaction** strategy game. Written from scratch using **Flutter & Dart**.The game is powered bu minimax algorithm with alpha-beta pruning. 
 ---
 
 ## 📲 Quick Start: Grab the Installer
@@ -51,15 +50,7 @@ The AI evaluates how "good" a board looks using a combination of five strategies
 
 ---
 
-## ⚡ Developer Notes & Optimizations
 
-We built this app with performance in mind. Here is how we kept the animations running at 60 FPS even while the AI is analyzing millions of configurations:
-
-*   **Zero-Lag Calculations (Dart Isolates)**: Minimax searches can freeze the interface. To prevent this, all search logic runs on a background worker thread (Isolate), keeping the gameplay animations buttery smooth.
-*   **Queue-Based BFS Engine**: Recursive functions can crash apps due to stack overflows during massive chain reactions. We rewrote the explosion logic to use an iterative Breadth-First Search (BFS) queue.
-*   **Immutable State Management**: Our game state uses lightweight, immutable Dart data structures. Copying the board for AI simulation is incredibly cheap and memory-efficient.
-
----
 
 ## 📸 Screenshots
 
